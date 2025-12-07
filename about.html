@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O projektu – Interaktivna povijest videoigara</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="logo">🎮 Videoigre</div>
+        <nav class="main-nav">
+            <a href="index.html#hero">Početna</a>
+            <a href="index.html#timeline">Povijest</a>
+            <a href="index.html#consoles">Konzole</a>
+            <a href="index.html#top5">Top 5 igara</a>
+            <a href="index.html#stats">Statistika</a>
+            <a href="index.html#quiz">Kviz</a>
+            <a href="index.html#chatbot">Chatbot</a>
+            <a href="about.html">O projektu</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle">☰</button>
+    </header>
+
+    <!-- ABOUT CONTENT -->
+    <main>
+        <section class="section">
+            <h1>O projektu</h1>
+            <p>
+                Ova web stranica izrađena je kao projektni zadatak iz kolegija
+                <strong>Tehnologije interaktivnog web-a</strong>.
+            </p>
+
+            <p style="margin-top:1rem;">
+                Cilj projekta bio je demonstrirati znanje rada s HTML-om, CSS-om,
+                JavaScript-om, interaktivnim elementima, grafičkim prikazima putem D3.js
+                biblioteke te integracijom jednostavnog chatbota.
+                Kao temu sam odabrao <strong>povijest videoigara</strong>, budući da je to područje meni vrlo poznato i zanimljivo.
+            </p>
+
+            <h2 style="margin-top:2rem;">Korištene tehnologije</h2>
+            <ul style="margin-top:0.8rem; line-height:1.8;">
+                <li>HTML5 – struktura stranice</li>
+                <li>CSS3 – responzivan dizajn, flexbox/grid, vizualni stil</li>
+                <li>JavaScript – interaktivnost (timeline, top 5 igara, modal, carousel, scroll to top, kviz)</li>
+                <li>D3.js – grafikon broja konzola kroz desetljeća</li>
+                <li>chatbot.com – jednostavan chatbot ugrađen u stranicu</li>
+                <li>Modal galerija – ručno implementirano rješenje s carousel navigacijom</li>
+            </ul>
+
+            <h2 style="margin-top:2rem;">Struktura stranice</h2>
+            <p style="margin-top:0.8rem;">
+                Stranica je organizirana kao <strong>single-page aplikacija</strong> uz dodatnu About stranicu.
+                Sadrži sljedeće sekcije:
+            </p>
+
+            <ul style="margin-top:0.8rem; line-height:1.8;">
+                <li>Hero uvod</li>
+                <li>Timeline povijesti videoigara</li>
+                <li>Pregled legendarnih konzola</li>
+                <li>Mojih top 5 igara</li>
+                <li>D3.js grafikon</li>
+                <li>Kviz o igrama</li>
+                <li>Modal galerija konzola</li>
+                <li>Chatbot sekcija</li>
+            </ul>
+
+            <h2 style="margin-top:2rem;">Osobni doprinos</h2>
+            <p style="margin-top:0.8rem;">
+                Poseban naglasak stavio sam na izradu interaktivnih elemenata, poput
+                modala s galerijom konzola, carousel navigacije, JavaScript kviza
+                i dodatnih dinamičkih komponenti poput scroll-to-top gumba.
+                Želio sam da projekt bude vizualno moderan, tehnički bogat i ugodan za korištenje.
+            </p>
+
+            <h2 style="margin-top:2rem;">Autor</h2>
+            <p style="margin-top:0.8rem;">
+                Damjan Đekić  
+                <br>Kolegij: Tehnologije interaktivnog web-a  
+                <br>Akademska godina: 2025./2026.
+            </p>
+
+            <a href="index.html" class="primary-btn" style="margin-top:2rem; display:inline-block;">
+                Povratak na početnu
+            </a>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <p>&copy; 2025 Interaktivna povijest videoigara – projekt za kolegij Tehnologije interaktivnog web-a</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
